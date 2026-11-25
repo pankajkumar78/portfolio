@@ -138,7 +138,6 @@
             <li>Standardised playback on HLS / DASH with ExoPlayer–Media3, Shaka and Video.js</li>
             <li>Extended reach beyond our own apps with FAST (Free Ad-Supported Streaming TV) channels</li>
             <li>Designed for 10-foot UI, D-pad focus and low-memory TV hardware from day one</li>
-            <!-- TODO: add one decision only you can describe, e.g. shared code vs. per-platform apps, build vs. partner -->
           </ul>
         </div>
         <div>
@@ -153,6 +152,7 @@
           </ul>
         </div>
       </div>
+      <blockquote class="my-call"><span>My call</span>I chose not to build a separate app for every TV. Where playback, ads and performance matter most (Android TV, Fire TV and Apple TV), we went native with Kotlin and Swift. For webOS, Tizen and other web-based TVs, we built one shared web codebase with React, Enact and Lightning. That split let the same team ship to 7+ platforms without the cost of maintaining seven separate apps.</blockquote>
     </article>
 
     <article class="case">
@@ -172,8 +172,8 @@
           <ul class="ticks">
             <li>Modernised the codebase: Jetpack Compose, Hilt, multi-module architecture</li>
             <li>Optimised home-feed and article-detail loading paths</li>
-            <li>Release and monitoring discipline with Crashlytics and Remote Config, and getting the app ready for peak-traffic events such as elections</li>
-            <!-- TODO: add a specific example, e.g. what you changed before an election results day -->
+            <li>Remote Config kill switches, CDN-cached feeds and optimised ad loading for peak-traffic events such as elections</li>
+            <li>Release freeze and a live monitoring war room with Crashlytics on big event days</li>
           </ul>
         </div>
         <div>
@@ -186,6 +186,7 @@
           </ul>
         </div>
       </div>
+      <blockquote class="my-call"><span>My call</span>Before big traffic events, I don't rely on hope. I run a playbook. We freeze releases early and roll out fixes ahead of time. Remote Config kill switches can turn off heavy widgets and ads instantly. Feeds are cached and served from a CDN, so spikes never hit our origin APIs. The home feed is lighter, and ads load without blocking content. On the day, a live war room watches Crashlytics and analytics in real time.</blockquote>
     </article>
 
     <article class="case">
@@ -221,6 +222,7 @@
         </div>
       </div>
       <div class="pills case-pills"><span>Google Ad Manager</span><span>Google IMA</span><span>SSAI</span><span>SCTE-35</span><span>AdMob</span><span>Amazon APS</span><span>Taboola</span><span>VAST / VMAP</span><span>FAST ad breaks</span></div>
+      <blockquote class="my-call"><span>My call</span>The hardest problems were ads that failed silently: no-fill and playback failures that looked different on every TV, player and SDK. Instead of fixing them one by one, I set up a single way to investigate them across platforms. It checks ad requests, device signals and player behaviour with IMA and SSAI, and we work through it jointly with AdOps. Issues now get traced to their root cause instead of bouncing between teams.</blockquote>
     </article>
   </section>
 
