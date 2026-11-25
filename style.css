@@ -231,3 +231,4 @@ h3 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
 #case-studies { padding-top: 24px; }
 .my-call { margin-top: 24px; padding: 18px 22px; border-left: 3px solid var(--accent); background: var(--bg-band); border-radius: 0 10px 10px 0; color: var(--text); font-size: 1rem; line-height: 1.6; }
 .my-call span { display: block; font-family: "JetBrains Mono", monospace; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); margin-bottom: 6px; }
+.case-grid p + p { margin-top: 10px; }
