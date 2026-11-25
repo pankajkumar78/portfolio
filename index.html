@@ -66,7 +66,7 @@
         <div class="stat"><b>100M+</b><span>App downloads across Aaj Tak, India Today, Business Today &amp; The Lallantop</span></div>
         <!-- VERIFY: 10M MAU across apps -->
         <div class="stat"><b>10M+</b><span>Monthly active users across our news apps</span></div>
-        <div class="stat"><b>7+</b><span>Smart TV platforms shipped</span></div>
+        <div class="stat"><b>7+</b><span>Smart TV platforms shipped: Android TV, Fire TV, Vega OS, Apple TV, LG webOS, Samsung Tizen, Roku</span></div>
         <div class="stat"><b>1M+</b><span>Monthly viewers on our Smart TV apps</span></div>
         <!-- VERIFY: 5x watch time vs mobile -->
         <div class="stat"><b>5×</b><span>TV watch time vs. mobile</span></div>
@@ -97,6 +97,7 @@
           <ul class="ticks">
             <li>Chose the stack per platform: native Kotlin / Swift where the platform rewards it; React, Enact, Lightning and Video.js on web-based TVs</li>
             <li>Standardised playback on HLS / DASH with ExoPlayer–Media3, Shaka and Video.js</li>
+            <li>Extended reach beyond our own apps with FAST (Free Ad-Supported Streaming TV) channels</li>
             <li>Designed for 10-foot UI, D-pad focus and low-memory TV hardware from day one</li>
             <!-- TODO: add one decision only you can describe, e.g. shared code vs. per-platform apps, build vs. partner -->
           </ul>
@@ -108,6 +109,7 @@
             <li><b>7+</b> TV platforms live</li>
             <li><b>1M+</b> monthly TV viewers</li>
             <li>TV watch time <b>~5×</b> mobile</li>
+            <li>FAST channels live alongside the TV apps</li>
             <li>Growth: <b>~30%</b> Android TV / Fire TV, <b>~100%</b> Roku / Apple TV</li>
           </ul>
         </div>
@@ -162,8 +164,9 @@
         <div>
           <h4>Key decisions</h4>
           <ul class="ticks">
-            <li>SCTE-35 markers with Google DAI / SSAI for ads in live streams</li>
-            <li>Google IMA for client-side pre-roll; Ad Manager, AdMob, Amazon APS and Taboola across apps</li>
+            <li>Server-side ad insertion (SSAI) with Google DAI and SCTE-35 markers for live streams and FAST channels</li>
+            <li>Client-side video ads with Google IMA (VAST / VMAP pre-roll and mid-roll)</li>
+            <li>Display and programmatic demand: Google Ad Manager, AdMob, Amazon Publisher Services (APS) header bidding, Taboola</li>
             <li>A shared way to investigate no-fill and ad-playback issues across platforms</li>
           </ul>
         </div>
@@ -173,6 +176,7 @@
           <p>Ad-supported video live on mobile and TV platforms, with engineering and AdOps working from the same playbook.</p>
         </div>
       </div>
+      <div class="pills case-pills"><span>Google Ad Manager</span><span>Google IMA</span><span>Google DAI</span><span>SSAI</span><span>SCTE-35</span><span>AdMob</span><span>Amazon APS</span><span>Taboola</span><span>VAST / VMAP</span><span>FAST ad breaks</span></div>
     </article>
   </section>
 
@@ -191,8 +195,8 @@
         <div class="plat">
           <span class="cat cat-ctv">Connected TV</span>
           <h3>Where engagement is deepest</h3>
-          <p>Native and web-based TV apps with live streams, VOD and ad monetisation.</p>
-          <div class="pills"><span>Android TV</span><span>Fire TV</span><span>Vega OS</span><span>Apple TV</span><span>LG webOS</span><span>Samsung Tizen</span><span>Roku</span><span>Comcast</span></div>
+          <p>Native and web-based TV apps plus FAST channels, with live streams, VOD and ad monetisation.</p>
+          <div class="pills"><span>Android TV</span><span>Fire TV</span><span>Vega OS</span><span>Apple TV</span><span>LG webOS</span><span>Samsung Tizen</span><span>Roku</span><span>Comcast</span><span>FAST channels</span></div>
         </div>
         <div class="plat plat-auto">
           <span class="cat cat-auto">Automotive</span>
@@ -231,8 +235,8 @@
       <div class="skills">
         <div><h3>Mobile</h3><p>Kotlin, Java, Swift, Flutter, Jetpack Compose, Coroutines &amp; Flow, Hilt/Dagger, Room, multi-module Gradle</p></div>
         <div><h3>Automotive</h3><p>Android Auto, Android Automotive OS (AAOS), AOSP-based infotainment, webOS Auto, rear-seat entertainment, Car App Library, Media3 / MediaSession for in-car audio &amp; video, driver-distraction &amp; car-ready app quality guidelines</p></div>
-        <div><h3>TV &amp; Video</h3><p>Android TV, Vega OS, tvOS, webOS, Tizen, Roku · React, Enact, Lightning · ExoPlayer/Media3, Shaka, Video.js · HLS, DASH, DRM</p></div>
-        <div><h3>Ad tech</h3><p>SCTE-35, Google DAI / SSAI, Google IMA, Ad Manager, AdMob, Amazon APS, VAST, Taboola</p></div>
+        <div><h3>TV &amp; Video</h3><p>Android TV, Vega OS, tvOS, webOS, Tizen, Roku · FAST channels · React, Enact, Lightning · ExoPlayer/Media3, Shaka, Video.js · HLS, DASH, DRM</p></div>
+        <div><h3>Ad tech</h3><p>Google Ad Manager, Google IMA, Google DAI, SSAI, SCTE-35, AdMob, Amazon Publisher Services (APS), Taboola, VAST / VMAP, FAST channel ad breaks</p></div>
         <div><h3>AI</h3><p>Text-to-speech, summarisation and GPT-based editorial tools in production apps. AI-assisted engineering with Claude Code, MCP and automated debugging.</p></div>
         <div><h3>Data &amp; operations</h3><p>Firebase, Crashlytics, Remote Config, GA4, BigQuery, Pushwoosh, deep linking, Play Console &amp; App Store Connect</p></div>
       </div>

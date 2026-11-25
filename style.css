@@ -215,3 +215,4 @@ h3 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
   .team-growth .arrow { transform: rotate(90deg); }
 }
 .plat-auto { border-color: var(--next); }
+.case-pills { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--line); }
