@@ -23,7 +23,7 @@
 
 <header class="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="logo" aria-label="Back to top">PK</a>
+    <a href="#top" class="logo" aria-label="Pankaj Kumar, back to top"><span class="logo-mark">PK</span><span class="logo-name">Pankaj Kumar</span></a>
     <nav aria-label="Sections">
       <a href="#impact">Impact</a>
       <a href="#apps">Apps</a>
@@ -77,13 +77,7 @@
 
   <!-- APPS -->
   <section id="apps" class="wrap section">
-    <div class="apps-head">
-      <h2 class="section-title">Apps I've built and led</h2>
-      <div class="apps-nav">
-        <button type="button" aria-label="Scroll apps left" data-dir="-1">←</button>
-        <button type="button" aria-label="Scroll apps right" data-dir="1">→</button>
-      </div>
-    </div>
+    <h2 class="section-title">Apps I've built and led</h2>
     <div class="apps" id="apps-track">
       <article class="app">
         <div class="app-shot"><img src="images/aajtak-video.jpg" alt="Aaj Tak app video page" loading="lazy" width="428" height="760"></div>
@@ -127,20 +121,19 @@
           <span class="tag">Android &amp; iOS</span>
           <h3>Astro Tak</h3>
           <p>Astrology consultations: chat, call and video</p>
-          <p class="app-links"><a href="https://apps.apple.com/in/app/astrotak/id1583755180" target="_blank" rel="noopener">App Store ↗</a> · <a href="https://play.google.com/store/apps/details?id=com.aajtak.astrotak" target="_blank" rel="noopener">Play ↗</a></p>
+          <p class="app-links"><a href="https://play.google.com/store/apps/details?id=com.aajtak.astrotak" target="_blank" rel="noopener">Google Play ↗</a></p>
         </div>
       </article>
       <article class="app">
         <div class="app-shot"><img src="images/ndtv-watch.jpg" alt="NDTV app live TV" loading="lazy" width="428" height="760"></div>
         <div class="app-body">
-          <span class="tag">iOS &amp; Android · 2016–19</span>
+          <span class="tag">NDTV · 2016–19</span>
           <h3>NDTV News</h3>
           <p>News, live TV and cricket</p>
           <p class="app-links"><a href="https://apps.apple.com/in/app/ndtv-news/id377869410" target="_blank" rel="noopener">App Store ↗</a></p>
         </div>
       </article>
     </div>
-    <p class="note">Screenshots are from the public app store listings and show the current versions of each app.</p>
   </section>
 
   <!-- 03 CASE STUDIES -->
@@ -258,23 +251,27 @@
       <h2 class="section-title">Platform expertise</h2>
       <p class="section-sub">One product strategy, three kinds of screen.</p>
       <div class="cols three">
-        <div class="plat">
+        <div class="plat ">
           <span class="cat cat-mobile">Mobile</span>
           <h3>Where the audience is today</h3>
-          <p>Native Android &amp; iOS plus Flutter, for Aaj Tak, India Today, Business Today, The Lallantop, Astro Tak, and earlier NDTV News &amp; NDTV Cricket.</p>
-          <div class="pills"><span>Kotlin</span><span>Swift</span><span>Flutter</span><span>Jetpack Compose</span><span>Modular architecture</span><span>ExoPlayer / Media3</span><span>Firebase &amp; Crashlytics</span><span>AI features (TTS, summarisation)</span></div>
+          <div class="plat-stat"><b>100M+</b><span>downloads across native Android, iOS and Flutter apps</span></div>
+          <div class="plat-row"><h4>Apps</h4><div class="chips c-mobile"><span>Aaj Tak</span><span>India Today</span><span>Business Today</span><span>The Lallantop</span><span>Astro Tak</span><span>NDTV News</span><span>NDTV Cricket</span></div></div>
+          <div class="plat-row"><h4>Stack</h4><div class="pills"><span>Kotlin</span><span>Swift</span><span>Flutter</span><span>Jetpack Compose</span><span>Modular architecture</span><span>ExoPlayer / Media3</span><span>Firebase &amp; Crashlytics</span><span>AI features (TTS, summarisation)</span></div></div>
         </div>
-        <div class="plat">
+        <div class="plat ">
           <span class="cat cat-ctv">Connected TV</span>
           <h3>Where engagement is deepest</h3>
-          <p>Native and web-based TV apps on Android TV, Fire TV, Vega OS, Apple TV, LG webOS, Samsung Tizen, Roku and Comcast, plus FAST channels, with live streams, VOD and ad monetisation.</p>
-          <div class="pills"><span>Leanback / Compose for TV</span><span>React Native for Vega</span><span>tvOS / Swift</span><span>React · Enact · Lightning</span><span>BrightScript / SceneGraph</span><span>ExoPlayer · Shaka · Video.js</span><span>HLS · DASH · DRM</span><span>FAST channels</span></div>
+          <div class="plat-stat"><b>7+</b><span>TV platforms · live, VOD and FAST, ad-monetised</span></div>
+          <div class="plat-row"><h4>Platforms</h4><div class="chips c-ctv"><span>Android TV</span><span>Fire TV</span><span>Vega OS</span><span>Apple TV</span><span>LG webOS</span><span>Samsung Tizen</span><span>Roku</span><span>Comcast</span><span>FAST channels</span></div></div>
+          <div class="plat-row"><h4>Stack</h4><div class="pills"><span>Leanback / Compose for TV</span><span>React Native for Vega</span><span>tvOS / Swift</span><span>React · Enact · Lightning</span><span>BrightScript / SceneGraph</span><span>ExoPlayer · Shaka · Video.js</span><span>HLS · DASH · DRM</span></div></div>
         </div>
         <div class="plat plat-auto">
           <span class="cat cat-auto">Automotive</span>
           <h3>Streaming video and audio in the car</h3>
-          <p>Bringing our video and audio content into in-car infotainment on Android Auto, Android Automotive OS (AAOS), AOSP-based head units and webOS-based automotive platforms. This covers driver-safe, audio-first experiences on the front screen and full video on rear-seat entertainment screens.</p>
-          <div class="pills"><span>Android Auto</span><span>Android Automotive OS</span><span>AOSP</span><span>webOS Auto</span><span>Rear-seat entertainment</span><span>Media3 / MediaSession</span></div>
+          <div class="plat-stat"><b>4</b><span>in-car platforms · front screen and rear seat</span></div>
+          <div class="plat-row"><h4>Platforms</h4><div class="chips c-auto"><span>Android Auto</span><span>Android Automotive OS</span><span>AOSP head units</span><span>webOS Auto</span></div></div>
+          <div class="plat-row"><h4>Experiences</h4><div class="chips c-auto"><span>Driver-safe, audio-first</span><span>Rear-seat video</span></div></div>
+          <div class="plat-row"><h4>Stack</h4><div class="pills"><span>Car App Library</span><span>Media3 / MediaSession</span><span>AAOS app quality guidelines</span></div></div>
         </div>
       </div>
     </div>
@@ -348,13 +345,5 @@
   <p>© 2026 Pankaj Kumar · Brand names belong to their respective owners; figures are approximate.</p>
 </footer>
 
-<script>
-  document.querySelectorAll('.apps-nav button').forEach(function (b) {
-    b.addEventListener('click', function () {
-      var t = document.getElementById('apps-track');
-      t.scrollBy({ left: Number(b.dataset.dir) * t.clientWidth * 0.8, behavior: 'smooth' });
-    });
-  });
-</script>
 </body>
 </html>
