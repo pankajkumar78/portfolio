@@ -271,3 +271,6 @@ h3 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
 /* platform card fixes */
 .plat > .cat { align-self: flex-start; }
 .plat-stat b { flex-shrink: 0; }
+a.app { color: inherit; transition: transform .15s ease, border-color .15s ease; }
+a.app:hover { transform: translateY(-3px); border-color: var(--text); }
+.app-name { font-size: 0.92rem; padding: 10px 12px; border-top: 1px solid var(--line); text-align: center; }
