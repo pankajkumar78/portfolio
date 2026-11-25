@@ -3,13 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pankaj Kumar — Engineering Leader, Mobile &amp; Connected TV</title>
-  <meta name="description" content="Engineering Leader with 10+ years building news &amp; video apps at scale — Aaj Tak, India Today, NDTV — across Mobile, 7+ Smart TV platforms, and now automotive screens.">
+  <title>Pankaj Kumar — Engineering Leader, Mobile, Connected TV &amp; OTT</title>
+  <meta name="description" content="Engineering Leader with 10+ years building and scaling news &amp; video products — Aaj Tak, India Today, NDTV — across mobile, 7+ Smart TV platforms and, next, automotive screens.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Pankaj Kumar — Engineering Leader, Mobile &amp; Connected TV">
-  <meta property="og:description" content="Building news &amp; video experiences for millions — on phones, 7+ TV platforms, and next, the car.">
+  <meta property="og:title" content="Pankaj Kumar — Engineering Leader, Mobile, Connected TV &amp; OTT">
+  <meta property="og:description" content="Leading the engineering behind India's biggest news apps — on phones, 7+ TV platforms, and next, the car.">
   <meta property="og:url" content="https://pankajkumar78.github.io/">
-  <!-- TODO: add an og:image (1200x630) for a nicer LinkedIn link preview -->
+  <meta property="og:image" content="https://pankajkumar78.github.io/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
@@ -19,12 +23,13 @@
 
 <header class="nav">
   <div class="wrap nav-inner">
-    <a href="#top" class="logo">PK</a>
-    <nav>
+    <a href="#top" class="logo" aria-label="Back to top">PK</a>
+    <nav aria-label="Sections">
       <a href="#impact">Impact</a>
-      <a href="#apps">Apps</a>
-      <a href="#ctv">Connected TV</a>
-      <a href="#auto">Automotive</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#technology">Technology</a>
       <a href="#journey">Journey</a>
       <a href="#contact" class="btn-sm">Contact</a>
     </nav>
@@ -33,14 +38,14 @@
 
 <main id="top">
 
-  <!-- HERO -->
+  <!-- 01 HERO -->
   <section class="hero wrap">
-    <p class="eyebrow">Engineering Leader · Mobile &amp; Connected TV · India Today Group</p>
-    <h1>I build news &amp; video experiences for <span class="accent">millions</span> — on phones, TVs, and next, the car.</h1>
+    <p class="eyebrow">Engineering Leader · Mobile, Connected TV &amp; OTT · India Today Group</p>
+    <h1>I lead the engineering behind news products used by <span class="accent">millions</span> — on phones, TVs, and next, the car.</h1>
     <p class="lede">
-      10+ years across native Android, iOS and connected-TV engineering. Today I lead a 15+ engineer team
-      shipping Aaj Tak, India Today, Business Today and The Lallantop across mobile and 7+ Smart TV platforms —
-      and I'm taking that multi-screen playbook into automotive infotainment.
+      10+ years from hands-on Android developer to leading a 15+ engineer organisation across Android, iOS, Flutter
+      and Connected TV. I own app strategy for Aaj Tak, India Today, Business Today and The Lallantop, take products
+      into new platforms, and make the technology calls that let a small team ship to many screens.
     </p>
     <div class="screens" aria-label="Screens I build for">
       <span class="chip">📱 Mobile</span><span class="arrow">→</span>
@@ -48,14 +53,14 @@
       <span class="chip chip-next">🚗 Automotive</span>
     </div>
     <div class="cta">
-      <a class="btn" href="#apps">See my work</a>
-      <a class="btn ghost" href="https://www.linkedin.com/in/pankajkumar-techie/" target="_blank" rel="noopener">LinkedIn ↗</a>
+      <a class="btn" href="#case-studies">Read case studies</a>
+      <a class="btn ghost" href="resume.pdf" download>Download resume ↓</a>
     </div>
   </section>
 
-  <!-- IMPACT -->
+  <!-- 02 IMPACT -->
   <section id="impact" class="band">
-    <div class="wrap">
+    <div class="wrap block">
       <h2 class="section-title">Impact at a glance</h2>
       <div class="stats">
         <div class="stat"><b>100M+</b><span>Aaj Tak app downloads (Google Play)</span></div>
@@ -71,108 +76,172 @@
     </div>
   </section>
 
-  <!-- FLAGSHIP APPS -->
-  <section id="apps" class="wrap section">
-    <h2 class="section-title">Big apps I've built and led</h2>
-    <p class="section-sub">Some of India's most-used news products, where a breaking story can multiply traffic in minutes.</p>
-    <div class="cards">
-      <article class="card">
-        <div class="card-head"><h3>Aaj Tak</h3><span class="tag">India Today Group</span></div>
-        <p>India's leading Hindi news app. Led architecture, home-feed &amp; article performance, release management, and readiness for election-night and breaking-news traffic spikes.</p>
-        <ul class="metrics">
-          <li>100M+ downloads</li>
-          <!-- VERIFY: 99.3% crash-free and 25–30% load improvement -->
-          <li>~99.3% crash-free users</li>
-          <li>25–30% faster loading</li>
-        </ul>
-      </article>
-      <article class="card">
-        <div class="card-head"><h3>India Today</h3><span class="tag">India Today Group</span></div>
-        <p>Flagship English news app on Android &amp; iOS. Modernised to Jetpack Compose, Hilt and a modular codebase; owned delivery across mobile and TV.</p>
-      </article>
-      <article class="card">
-        <div class="card-head"><h3>Business Today &amp; The Lallantop</h3><span class="tag">India Today Group</span></div>
-        <p>Business news and youth-focused video storytelling. Shared multi-brand platform, AI-powered features (text-to-speech, summarisation, GPT-based editorial tools).</p>
-      </article>
-      <article class="card">
-        <div class="card-head"><h3>NDTV News &amp; NDTV Cricket</h3><span class="tag">NDTV · 2016–2019</span></div>
-        <p>Built a custom Live TV / video player on ExoPlayer with IMA ads, real-time election-results experiences, and owned the NDTV Cricket app end to end.</p>
-      </article>
-    </div>
+  <!-- 03 CASE STUDIES -->
+  <section id="case-studies" class="wrap section">
+    <h2 class="section-title">Featured case studies</h2>
+    <p class="section-sub">Three programmes that show how I take ownership: the problem, the decisions, and what changed.</p>
+
+    <article class="case">
+      <div class="case-meta"><span class="cat cat-ctv">Connected TV</span><span class="tag">India Today Group</span></div>
+      <h3>Taking a news business onto 7+ Smart TV platforms</h3>
+      <div class="case-grid">
+        <div>
+          <h4>Problem</h4>
+          <p>Audiences were moving to the living room, but each TV ecosystem — Android TV, Fire TV, Apple TV, LG webOS, Samsung Tizen, Roku, Fire TV Vega OS — has its own stack, store, certification and remote-control model.</p>
+        </div>
+        <div>
+          <h4>My role</h4>
+          <p>Owned the CTV programme end to end: platform roadmap, team allocation, partner coordination, certification and releases.</p>
+        </div>
+        <div>
+          <h4>Key decisions</h4>
+          <ul class="ticks">
+            <li>Chose the stack per platform: native Kotlin / Swift where the platform rewards it; React, Enact, Lightning and Video.js on web-based TVs</li>
+            <li>Standardised playback on HLS / DASH with ExoPlayer–Media3, Shaka and Video.js</li>
+            <li>Designed for 10-foot UI, D-pad focus and low-memory TV hardware from day one</li>
+            <!-- TODO: add one decision only you can describe, e.g. shared code vs. per-platform apps, build vs. partner -->
+          </ul>
+        </div>
+        <div>
+          <h4>Outcome</h4>
+          <!-- VERIFY: all figures and reporting period -->
+          <ul class="ticks">
+            <li><b>7+</b> TV platforms live</li>
+            <li><b>~5 lakh</b> monthly TV viewers</li>
+            <li>TV watch time <b>~5×</b> mobile</li>
+            <li>Growth: <b>~30%</b> Android TV / Fire TV, <b>~100%</b> Roku / Apple TV</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta"><span class="cat cat-mobile">Mobile</span><span class="tag">Aaj Tak · India Today Group</span></div>
+      <h3>Keeping a 100M-download news app fast and stable when news breaks</h3>
+      <div class="case-grid">
+        <div>
+          <h4>Problem</h4>
+          <p>For a news app, the busiest moments — elections, breaking stories — are exactly when it can't afford to be slow or crash. Traffic can spike many times over within minutes.</p>
+        </div>
+        <div>
+          <h4>My role</h4>
+          <p>Led the Android &amp; iOS engineering, first as Tech Lead and then as Engineering Manager: architecture, performance, release planning and production incidents.</p>
+        </div>
+        <div>
+          <h4>Key decisions</h4>
+          <ul class="ticks">
+            <li>Modernised the codebase: Jetpack Compose, Hilt, multi-module architecture</li>
+            <li>Optimised home-feed and article-detail loading paths</li>
+            <li>Release and monitoring discipline with Crashlytics and Remote Config, and getting the app ready for traffic spikes on big news days</li>
+            <!-- TODO: add a specific example, e.g. what you changed before an election results day -->
+          </ul>
+        </div>
+        <div>
+          <h4>Outcome</h4>
+          <!-- VERIFY: crash-free %, load improvement % and measurement period -->
+          <ul class="ticks">
+            <li><b>100M+</b> downloads, <b>10M+</b> monthly users</li>
+            <li><b>~99.3%</b> crash-free users</li>
+            <li><b>25–30%</b> faster loading</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="case">
+      <div class="case-meta"><span class="cat cat-ads">Ad Tech</span><span class="tag">Mobile &amp; CTV</span></div>
+      <h3>Monetising live and on-demand video across every screen</h3>
+      <div class="case-grid">
+        <div>
+          <h4>Problem</h4>
+          <p>Video ads behave differently on every platform. Live streams need server-side ad insertion that matches the broadcast, and every lost ad means lost revenue.</p>
+        </div>
+        <div>
+          <h4>My role</h4>
+          <p>Played a key role in the ad tech implementation across mobile and CTV, working as the engineering counterpart to AdOps and revenue teams.</p>
+        </div>
+        <div>
+          <h4>Key decisions</h4>
+          <ul class="ticks">
+            <li>SCTE-35 markers with Google DAI / SSAI for ads in live streams</li>
+            <li>Google IMA for client-side pre-roll; Ad Manager, AdMob, Amazon APS and Taboola across apps</li>
+            <li>A shared way to investigate no-fill and ad-playback issues across platforms</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Outcome</h4>
+          <!-- TODO: add a result, e.g. fill-rate change, new ad inventory on TV, revenue unlocked (if shareable) -->
+          <p>Ad-supported video live on mobile and TV platforms, with engineering and AdOps working from the same playbook.</p>
+        </div>
+      </div>
+    </article>
   </section>
 
-  <!-- CTV -->
-  <section id="ctv" class="band">
+  <!-- 04 PLATFORMS -->
+  <section id="platforms" class="band">
     <div class="wrap section">
-      <h2 class="section-title">Connected TV: taking news to the big screen</h2>
-      <p class="section-sub">News viewing is moving to the living room. I drove ITGD's expansion across every major TV ecosystem — native and web-based — with live streams, VOD and ad monetisation.</p>
-      <div class="platforms">
-        <span>Android TV</span><span>Amazon Fire TV</span><span>Fire TV Vega OS</span><span>Apple TV</span>
-        <span>LG webOS</span><span>Samsung Tizen</span><span>Roku</span><span>Comcast</span>
-      </div>
-      <div class="cols">
-        <div>
-          <h3>What I owned</h3>
-          <ul class="ticks">
-            <li>End-to-end delivery across native (Kotlin, Swift) and web (React, Enact, Lightning) TV stacks</li>
-            <li>Video playback: ExoPlayer / Media3, Shaka, Video.js — HLS, DASH and DRM</li>
-            <li>D-pad focus, 10-foot UI and performance tuning for low-memory TV hardware</li>
-            <li>Platform certification, store submissions and partner coordination</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Results</h3>
-          <!-- VERIFY: growth figures and reporting period -->
-          <ul class="ticks">
-            <li><b>~30%</b> audience growth on Android TV / Fire TV</li>
-            <li><b>~100%</b> growth on Roku / Apple TV</li>
-            <li>TV sessions run <b>~5×</b> longer than mobile — the highest-engagement screen we have</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AUTOMOTIVE -->
-  <section id="auto" class="wrap section">
-    <div class="auto">
-      <p class="eyebrow">What's next</p>
-      <h2 class="section-title">Automotive: the next connected screen</h2>
-      <p class="section-sub">After phones and TVs, the car is where audiences spend focused time. I'm extending our news and video experience into in-vehicle infotainment.</p>
-      <!-- TODO: add concrete details — platform (Android Automotive OS / Android Auto / OEM), partner, status -->
+      <h2 class="section-title">Platform expertise</h2>
+      <p class="section-sub">One product strategy, three kinds of screen.</p>
       <div class="cols three">
-        <div class="mini"><h3>Platform readiness</h3><p>Validating app fit for automotive platforms and their technical and safety requirements.</p></div>
-        <div class="mini"><h3>Driver-safe video &amp; audio</h3><p>Rethinking playback, audio-first news and distraction-safe UX for the cabin.</p></div>
-        <div class="mini"><h3>Partner integration</h3><p>Working with external partners on integration, testing and launch.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AD TECH + AI -->
-  <section class="band">
-    <div class="wrap section cols">
-      <div>
-        <h2 class="section-title">Ad tech &amp; monetisation</h2>
-        <p>Engineering that connects directly to revenue — across mobile and CTV.</p>
-        <div class="pills">
-          <span>SCTE-35</span><span>Google DAI / SSAI</span><span>Google IMA</span><span>Google Ad Manager</span>
-          <span>AdMob</span><span>Amazon APS</span><span>VAST</span><span>Taboola</span>
+        <div class="plat">
+          <span class="cat cat-mobile">Mobile</span>
+          <h3>Where the audience is today</h3>
+          <p>Native Android &amp; iOS plus Flutter, for Aaj Tak, India Today, Business Today, The Lallantop, and earlier NDTV News &amp; NDTV Cricket.</p>
+          <div class="pills"><span>Android</span><span>iOS</span><span>Flutter</span></div>
         </div>
-      </div>
-      <div>
-        <h2 class="section-title">AI-assisted engineering</h2>
-        <p>Shipping AI features for editorial apps and using AI to make the team faster.</p>
-        <div class="pills">
-          <span>Text-to-speech</span><span>Summarisation</span><span>GPT editorial tools</span>
-          <span>Claude Code</span><span>MCP integrations</span><span>AI-assisted debugging</span>
+        <div class="plat">
+          <span class="cat cat-ctv">Connected TV</span>
+          <h3>Where engagement is deepest</h3>
+          <p>Native and web-based TV apps with live streams, VOD and ad monetisation.</p>
+          <div class="pills"><span>Android TV</span><span>Fire TV</span><span>Vega OS</span><span>Apple TV</span><span>LG webOS</span><span>Samsung Tizen</span><span>Roku</span><span>Comcast</span></div>
+        </div>
+        <div class="plat plat-next">
+          <span class="cat cat-auto">Automotive · In progress</span>
+          <h3>The next connected screen</h3>
+          <!-- TODO: make concrete — platform (Android Automotive OS / Android Auto / OEM), partner, current status -->
+          <p>Bringing our news and video into in-car infotainment: checking platform readiness, rethinking playback and audio-first news for driver-safe use, and working with external partners.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- JOURNEY -->
+  <!-- 05 LEADERSHIP -->
+  <section id="leadership" class="wrap section">
+    <h2 class="section-title">Engineering leadership</h2>
+    <p class="section-sub">I grew from developer to Tech Lead to Engineering Manager inside the same organisation, so I lead with a hands-on understanding of the systems my teams own.</p>
+    <!-- VERIFY: team growth path 7–8 → ~12 → 15+ -->
+    <div class="team-growth" aria-label="Team growth">
+      <div><b>7–8</b><span>engineers</span></div><span class="arrow">→</span>
+      <div><b>~12</b><span>engineers</span></div><span class="arrow">→</span>
+      <div><b>15+</b><span>engineers · Android, iOS, Flutter, CTV</span></div>
+    </div>
+    <div class="lead-grid">
+      <div><h3>Building teams</h3><p>Leading and mentoring engineers across Android, iOS, Flutter and CTV, and managing external development and QA partners.</p></div>
+      <div><h3>Technology decisions</h3><p>Architecture direction (Compose, Hilt, modularisation) and per-platform stack choices for TV, balancing speed, cost and maintainability.</p></div>
+      <div><h3>Delivery ownership</h3><p>Roadmaps, release planning and prioritisation across four brands and many apps, with clear trade-offs for stakeholders.</p></div>
+      <div><h3>Production reliability</h3><p>Monitoring, incident response and preparing for big news days, so stability is measured and not assumed.</p></div>
+      <div><h3>Cross-functional partnership</h3><p>Day-to-day work with product, editorial, AdOps, QA, business teams and external platform partners.</p></div>
+      <div><h3>Expanding into new markets</h3><p>Taking existing products to new platforms (Smart TVs, then automotive) to reach new audiences and revenue.</p></div>
+    </div>
+  </section>
+
+  <!-- 06 TECHNOLOGY -->
+  <section id="technology" class="band">
+    <div class="wrap section">
+      <h2 class="section-title">Technology &amp; innovation</h2>
+      <div class="skills">
+        <div><h3>Mobile</h3><p>Kotlin, Java, Swift, Flutter, Jetpack Compose, Coroutines &amp; Flow, Hilt/Dagger, Room, multi-module Gradle</p></div>
+        <div><h3>TV &amp; Video</h3><p>Android TV, Vega OS, tvOS, webOS, Tizen, Roku · React, Enact, Lightning · ExoPlayer/Media3, Shaka, Video.js · HLS, DASH, DRM</p></div>
+        <div><h3>Ad tech</h3><p>SCTE-35, Google DAI / SSAI, Google IMA, Ad Manager, AdMob, Amazon APS, VAST, Taboola</p></div>
+        <div><h3>AI</h3><p>Text-to-speech, summarisation and GPT-based editorial tools in production apps. AI-assisted engineering with Claude Code, MCP and automated debugging.</p></div>
+        <div><h3>Data &amp; operations</h3><p>Firebase, Crashlytics, Remote Config, GA4, BigQuery, Pushwoosh, deep linking, Play Console &amp; App Store Connect</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 07 JOURNEY -->
   <section id="journey" class="wrap section">
-    <h2 class="section-title">Journey</h2>
+    <h2 class="section-title">Career journey</h2>
     <ol class="timeline">
       <li>
         <time>Jun 2023 — Present</time>
@@ -192,7 +261,7 @@
       <li>
         <time>Mar 2016 — Sep 2016</time>
         <h3>Android Developer · AutoPortal India</h3>
-        <p>Car research app — features, pricing, on-road price and insurance. My first automotive-domain product.</p>
+        <p>Car research app covering features, pricing, on-road price and insurance. My first automotive-domain product.</p>
       </li>
       <li>
         <time>Sep 2014 — Mar 2016</time>
@@ -202,25 +271,15 @@
     </ol>
   </section>
 
-  <!-- SKILLS -->
-  <section class="band">
-    <div class="wrap section">
-      <h2 class="section-title">Toolkit</h2>
-      <div class="skills">
-        <div><h3>Mobile</h3><p>Kotlin, Java, Swift, Flutter, Jetpack Compose, Coroutines &amp; Flow, Hilt/Dagger, Room, multi-module Gradle</p></div>
-        <div><h3>TV &amp; Video</h3><p>Android TV, Vega OS, tvOS, webOS, Tizen, Roku · React, Enact, Lightning · ExoPlayer/Media3, Shaka, Video.js · HLS, DASH, DRM</p></div>
-        <div><h3>Data &amp; Ops</h3><p>Firebase, Crashlytics, Remote Config, GA4, BigQuery, Pushwoosh, deep linking, Play Console &amp; App Store Connect</p></div>
-        <div><h3>Leadership</h3><p>Team building &amp; mentoring, delivery planning, release &amp; incident management, cross-functional work with product, editorial, AdOps &amp; QA</p></div>
+  <!-- 08 CONTACT -->
+  <section id="contact" class="band">
+    <div class="wrap section contact">
+      <h2 class="section-title">Let's talk</h2>
+      <div class="cta">
+        <a class="btn" href="https://www.linkedin.com/in/pankajkumar-techie/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
+        <a class="btn ghost" href="mailto:pankaj_chandan78@yahoo.in">pankaj_chandan78@yahoo.in</a>
+        <a class="btn ghost" href="resume.pdf" download>Resume (PDF) ↓</a>
       </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="wrap section contact">
-    <h2 class="section-title">Let's talk</h2>
-    <div class="cta">
-      <a class="btn" href="https://www.linkedin.com/in/pankajkumar-techie/" target="_blank" rel="noopener">Connect on LinkedIn ↗</a>
-      <a class="btn ghost" href="mailto:pankaj_chandan78@yahoo.in">pankaj_chandan78@yahoo.in</a>
     </div>
   </section>
 </main>
