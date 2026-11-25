@@ -32,14 +32,11 @@ Search `index.html` for `VERIFY` and `TODO`:
 - Fill in the automotive details: platform, partner and status.
 - Add an `og:image` (1200×630) so the link looks good when shared on LinkedIn.
 
-## Regenerate the resume PDF and share image
+## Regenerate the share image
 
-`resume.html` is the source for `resume.pdf`, and `og.html` is the source for `og-image.png`. After editing either one, run:
+`og.html` is the source for `og-image.png`. After editing it, run:
 
 ```bash
 CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
-"$CHROME" --headless=new --no-pdf-header-footer --print-to-pdf="$PWD/resume.pdf" "file://$PWD/resume.html"
 "$CHROME" --headless=new --hide-scrollbars --window-size=1200,630 --screenshot="$PWD/og-image.png" "file://$PWD/og.html"
 ```
-
-The resume only includes figures that are already public (100M+, 7+, 15+). Add others once they're verified.
