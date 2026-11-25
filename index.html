@@ -77,37 +77,65 @@
 
   <!-- APPS -->
   <section id="apps" class="wrap section">
-    <h2 class="section-title">Apps I've built and led</h2>
-    <div class="apps">
+    <div class="apps-head">
+      <h2 class="section-title">Apps I've built and led</h2>
+      <div class="apps-nav">
+        <button type="button" aria-label="Scroll apps left" data-dir="-1">←</button>
+        <button type="button" aria-label="Scroll apps right" data-dir="1">→</button>
+      </div>
+    </div>
+    <div class="apps" id="apps-track">
       <article class="app">
-        <div class="app-shots"><img src="images/aajtak-video.jpg" alt="Aaj Tak app video page" loading="lazy" width="380" height="676"><img src="images/aajtak-pip.jpg" alt="Aaj Tak app picture-in-picture mode" loading="lazy" width="380" height="676"></div>
+        <div class="app-shot"><img src="images/aajtak-video.jpg" alt="Aaj Tak app video page" loading="lazy" width="428" height="760"></div>
         <div class="app-body">
-          <div class="card-head"><h3>Aaj Tak</h3><span class="tag">India Today Group</span></div>
-          <p>India's leading Hindi news app, with 100M+ downloads: live TV, short-form video, picture-in-picture and breaking news at scale.</p>
+          <span class="tag">Android &amp; iOS</span>
+          <h3>Aaj Tak</h3>
+          <p>Hindi news, 100M+ downloads</p>
           <p class="app-links"><a href="https://play.google.com/store/apps/details?id=in.AajTak.headlines" target="_blank" rel="noopener">Google Play ↗</a></p>
         </div>
       </article>
-      <article class="app">
-        <div class="app-shots"><img src="images/indiatoday-live.jpg" alt="India Today app live TV" loading="lazy" width="380" height="676"><img src="images/indiatoday-shows.jpg" alt="India Today app TV shows" loading="lazy" width="380" height="676"></div>
+      <article class="app app-tv">
+        <div class="app-shot"><img src="images/aajtak-androidtv.jpg" alt="Aaj Tak Android TV app news programmes" loading="lazy" width="960" height="540"></div>
         <div class="app-body">
-          <div class="card-head"><h3>India Today</h3><span class="tag">India Today Group</span></div>
-          <p>Flagship English news app with live TV, top stories, TV shows and the NewsPresso quick-read format.</p>
+          <span class="tag">Android TV</span>
+          <h3>Aaj Tak TV</h3>
+          <p>Live TV and news programmes on the big screen</p>
+          <p class="app-links"><a href="https://play.google.com/store/apps/details?id=com.aajtak.tv" target="_blank" rel="noopener">Google Play ↗</a></p>
+        </div>
+      </article>
+      <article class="app">
+        <div class="app-shot"><img src="images/indiatoday-live.jpg" alt="India Today app live TV" loading="lazy" width="428" height="760"></div>
+        <div class="app-body">
+          <span class="tag">Android &amp; iOS</span>
+          <h3>India Today</h3>
+          <p>English news and live TV</p>
           <p class="app-links"><a href="https://play.google.com/store/apps/details?id=com.indiatoday" target="_blank" rel="noopener">Google Play ↗</a></p>
         </div>
       </article>
-      <article class="app">
-        <div class="app-shots"><img src="images/astrotak-hotline.jpg" alt="Astro Tak app astrologer hotline" loading="lazy" width="380" height="676"><img src="images/astrotak-consult.jpg" alt="Astro Tak app consultation list" loading="lazy" width="380" height="676"></div>
+      <article class="app app-tv">
+        <div class="app-shot"><img src="images/indiatoday-firetv.jpg" alt="India Today Fire TV app homepage" loading="lazy" width="960" height="540"></div>
         <div class="app-body">
-          <div class="card-head"><h3>Astro Tak</h3><span class="tag">India Today Group</span></div>
-          <p>Astrology consultation app with chat, voice and video calls to astrologers, plus online puja booking. A transactional consumer product beyond news.</p>
-          <p class="app-links"><a href="https://apps.apple.com/in/app/astrotak/id1583755180" target="_blank" rel="noopener">App Store ↗</a> · <a href="https://play.google.com/store/apps/details?id=com.aajtak.astrotak" target="_blank" rel="noopener">Google Play ↗</a></p>
+          <span class="tag">Fire TV</span>
+          <h3>India Today TV</h3>
+          <p>Live news and programmes for Fire TV</p>
+          <p class="app-links"><a href="https://www.amazon.in/dp/B07HP9K6G6" target="_blank" rel="noopener">Amazon ↗</a></p>
         </div>
       </article>
       <article class="app">
-        <div class="app-shots"><img src="images/ndtv-watch.jpg" alt="NDTV app live TV and videos" loading="lazy" width="380" height="676"><img src="images/ndtv-cricket.jpg" alt="NDTV app cricket section" loading="lazy" width="380" height="676"></div>
+        <div class="app-shot"><img src="images/astrotak-hotline.jpg" alt="Astro Tak app astrologer hotline" loading="lazy" width="428" height="760"></div>
         <div class="app-body">
-          <div class="card-head"><h3>NDTV News &amp; NDTV Cricket</h3><span class="tag">NDTV · 2016–2019</span></div>
-          <p>News, live TV and cricket apps. I built the ExoPlayer live TV player with IMA ads and election-results features, and owned NDTV Cricket end to end.</p>
+          <span class="tag">Android &amp; iOS</span>
+          <h3>Astro Tak</h3>
+          <p>Astrology consultations: chat, call and video</p>
+          <p class="app-links"><a href="https://apps.apple.com/in/app/astrotak/id1583755180" target="_blank" rel="noopener">App Store ↗</a> · <a href="https://play.google.com/store/apps/details?id=com.aajtak.astrotak" target="_blank" rel="noopener">Play ↗</a></p>
+        </div>
+      </article>
+      <article class="app">
+        <div class="app-shot"><img src="images/ndtv-watch.jpg" alt="NDTV app live TV" loading="lazy" width="428" height="760"></div>
+        <div class="app-body">
+          <span class="tag">iOS &amp; Android · 2016–19</span>
+          <h3>NDTV News</h3>
+          <p>News, live TV and cricket</p>
           <p class="app-links"><a href="https://apps.apple.com/in/app/ndtv-news/id377869410" target="_blank" rel="noopener">App Store ↗</a></p>
         </div>
       </article>
@@ -130,7 +158,6 @@
         <div>
           <h4>My role</h4>
           <p>Owned the CTV programme end to end: platform roadmap, team allocation, partner coordination, certification and releases.</p>
-          <p>I chose not to build a separate app for every TV. Where playback, ads and performance matter most (Android TV, Fire TV and Apple TV), we went native with Kotlin and Swift. For webOS, Tizen and other web-based TVs, we built one shared web codebase with React, Enact and Lightning. That split let the same team ship to 7+ platforms without the cost of maintaining seven separate apps.</p>
         </div>
         <div>
           <h4>Key decisions</h4>
@@ -186,7 +213,6 @@
           </ul>
         </div>
       </div>
-      <blockquote class="my-call"><span>My call</span>Before big traffic events, I don't rely on hope. I run a playbook. We freeze releases early and roll out fixes ahead of time. Remote Config kill switches can turn off heavy widgets and ads instantly. Feeds are cached and served from a CDN, so spikes never hit our origin APIs. The home feed is lighter, and ads load without blocking content. On the day, a live war room watches Crashlytics and analytics in real time.</blockquote>
     </article>
 
     <article class="case">
@@ -222,7 +248,6 @@
         </div>
       </div>
       <div class="pills case-pills"><span>Google Ad Manager</span><span>Google IMA</span><span>SSAI</span><span>SCTE-35</span><span>AdMob</span><span>Amazon APS</span><span>Taboola</span><span>VAST / VMAP</span><span>FAST ad breaks</span></div>
-      <blockquote class="my-call"><span>My call</span>The hardest problems were ads that failed silently: no-fill and playback failures that looked different on every TV, player and SDK. Instead of fixing them one by one, I set up a single way to investigate them across platforms. It checks ad requests, device signals and player behaviour with IMA and SSAI, and we work through it jointly with AdOps. Issues now get traced to their root cause instead of bouncing between teams.</blockquote>
     </article>
   </section>
 
@@ -322,5 +347,13 @@
   <p>© 2026 Pankaj Kumar · Brand names belong to their respective owners; figures are approximate.</p>
 </footer>
 
+<script>
+  document.querySelectorAll('.apps-nav button').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var t = document.getElementById('apps-track');
+      t.scrollBy({ left: Number(b.dataset.dir) * t.clientWidth * 0.8, behavior: 'smooth' });
+    });
+  });
+</script>
 </body>
 </html>
