@@ -231,7 +231,7 @@ h3 { font-size: 1.05rem; font-weight: 700; letter-spacing: -0.01em; }
 .app-links { margin-top: auto !important; padding-top: 6px; }
 .app-links a { color: var(--accent); font-weight: 600; font-size: 0.78rem; }
 @media (max-width: 800px) {
-  .apps { grid-template-columns: 1fr 1fr; }
+  .apps { grid-template-columns: 1fr 1fr; grid-auto-flow: dense; }
   .app-tv { grid-column: span 2; }
   .app-shot { height: 170px; }
 }
